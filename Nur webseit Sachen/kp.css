@@ -1,0 +1,104 @@
+.Titel {
+	font-size: 100px;
+	margin: auto;
+	display: flex;
+   align-items: center;
+   justify-content: center;
+    height: 100px;
+	}
+body {
+	background: black;
+	color: gray;
+	
+}
+img {
+	border-radius: 100px;
+}
+
+/* das sidebar menu */
+.sidenav {
+height: 100%; 
+width: 160px;
+position: fixed; 
+z-index: 1; 
+top: 0; 
+left: 0;
+background-color: #111; /* schwarz #111 */
+overflow-x: hidden; 
+padding-top: 20px;
+}
+
+.sidenav a {
+padding: 6px 8px 6px 16px;
+text-decoration: none;
+font-size: 25px;
+color: #818181;
+display: block;
+}
+
+.sidenav a:hover {
+color: #f1f1f1;
+}
+/*.dreh {
+	transform: rotate(90deg);*/
+}
+.main {
+margin-left: 160px; 
+padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+
+
+.mitte {
+    display: center;
+	text-align: left;
+	display:table; 
+	margin-right:auto;
+	margin-left: auto;
+	
+}
+.textschrift {
+	display:table; margin:0 auto;
+font-family: Times new roman; /* Arial */
+font-size: 30px;
+}
+.abstand {
+	margin-top: 100px;
+	margin-left: 300px;
+	margin-right: 200px;
+}
+.hohe {
+	margin-top: 200px;
+}
+.hohe1 {
+	margin-top: 100px;
+}
+.bouncy{
+animation:bouncy 5s infinite linear;
+position:relative;
+}
+@keyframes bouncy {
+0%{top:0em}
+40%{top:0em}
+43%{top:-0.9em}
+46%{top:0em}
+48%{top:-0.4em}
+50%{top:0em}
+100%{top:0em;}
+} 
+.button1 {
+	font-size: 50px;
+	color: green;
+	margin-left: 670px; 
+	height: 200px;
+	}
+	
+.trick {
+	font-size: 80px;
+	height:400px;
+	margin-left: 200px;
+}
